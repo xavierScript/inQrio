@@ -9,23 +9,26 @@ The goal is to create a transparent system where learners can measure their impr
 ## Project Structure
 
 This repository is organized as a **monorepo** containing multiple applications and services.
-This repository is organized as a monorepo. Project layout (clean ASCII view):
 
+Project layout:
+
+```text
 inqrio/
 ├─ apps/
-│ ├─ web/ — Web app (student dashboard, quizzes, tournaments)
-│ └─ mobile/ — Mobile app (future)
+│  ├─ web/        — Web app (student dashboard, quizzes, tournaments)
+│  └─ mobile/     — Mobile app (future)
 ├─ services/
-│ └─ backend/ — API, quiz engine, scoring & leaderboards
+│  └─ backend/    — API, quiz engine, scoring & leaderboards
 ├─ programs/
-│ └─ solana/ — Solana Anchor program (on-chain records)
+│  └─ solana/     — Solana Anchor program (on-chain records)
 ├─ packages/
-│ ├─ sdk/ — Client SDK
-│ ├─ types/ — Shared TypeScript types
-│ └─ ui/ — Shared UI components
-├─ docs/ — Architecture & specs
-├─ scripts/ — Utility scripts
-└─ README.md — Repo overview
+│  ├─ sdk/        — Client SDK
+│  ├─ types/      — Shared TypeScript types
+│  └─ ui/         — Shared UI components
+├─ docs/          — Architecture & specs
+├─ scripts/       — Utility scripts
+└─ README.md      — Repo overview
+```
 
 ---
 
