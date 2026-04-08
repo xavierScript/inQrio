@@ -1,0 +1,50 @@
+# docker-compose.yml
+# 
+# 📚 LEARN: Docker Compose lets you define your entire local infrastructure
+# as a single YAML file. Instead of installing Postgres and Redis globally
+# on your machine, they run in isolated containers.
+#
+# Key concepts:
+#   - "services": each block is a container
+#   - "image": the pre-built Docker image to use (pulled from Docker Hub)
+#   - "ports": "HOST:CONTAINER" — maps your machine's port to the container's port
+#   - "volumes": persists data so it survives container restarts
+#   - "environment": sets env vars inside the container
+#   - "healthcheck": Docker will restart the container if this check fails
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: inqrio_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: inqrio
+      POSTGRES_PASSWORD: inqrio_secret
+      POSTGRES_DB: inqrio_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U inqrio -d inqrio_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: inqrio_redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:   # Named volume — data persists even when container stops
+  redis_data:

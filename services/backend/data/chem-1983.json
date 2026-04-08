@@ -1,0 +1,286 @@
+{
+  "id": "chem-1983",
+  "title": "JAMB Chemistry 1983",
+  "questions": [
+    {
+      "id": "chem-1983-q1",
+      "question": "X is a crystalline salt of sodium that forms a white precipitate with BaCl2 insoluble in HCl. Identify X.",
+      "options": [
+        { "key": "A", "text": "Na2CO3" },
+        { "key": "B", "text": "NaHCO3" },
+        { "key": "C", "text": "NaHSO4" },
+        { "key": "D", "text": "Na2SO3" },
+        { "key": "E", "text": "Na2SO4" }
+      ],
+      "correct_option": "E",
+      "explanation": "Sulfates form insoluble BaSO4 with BaCl2. Na2SO4 (key E) is the sodium sulfate that fits all conditions.",
+      "topic": "Inorganic Chemistry"
+    },
+    {
+      "id": "chem-1983-q2",
+      "question": "The alkanol obtained from soap production is:",
+      "options": [
+        { "key": "A", "text": "ethanol" },
+        { "key": "B", "text": "glycerol" },
+        { "key": "C", "text": "methanol" },
+        { "key": "D", "text": "propanol" },
+        { "key": "E", "text": "glycol" }
+      ],
+      "correct_option": "B",
+      "explanation": "Soap production (saponification) yields glycerol as a by-product.",
+      "topic": "Organic Chemistry"
+    },
+    {
+      "id": "chem-1983-q3",
+      "question": "The flame used by welders is:",
+      "options": [
+        { "key": "A", "text": "butane" },
+        { "key": "B", "text": "acetylene" },
+        { "key": "C", "text": "kerosene" },
+        { "key": "D", "text": "oxy-acetylene" },
+        { "key": "E", "text": "oxygen" }
+      ],
+      "correct_option": "D",
+      "explanation": "Oxy-acetylene flame produces very high temperature (around 3500°C), making it ideal for welding.",
+      "topic": "Industrial Chemistry"
+    },
+    {
+      "id": "chem-1983-q4",
+      "question": "Members of alkane homologous series differ by:",
+      "options": [
+        { "key": "A", "text": "CH" },
+        { "key": "B", "text": "CH2" },
+        { "key": "C", "text": "CH3" },
+        { "key": "D", "text": "CnHn" },
+        { "key": "E", "text": "CnH2n+2" }
+      ],
+      "correct_option": "B",
+      "explanation": "Successive members of any homologous series differ by CH2 (methylene group).",
+      "topic": "Organic Chemistry"
+    },
+    {
+      "id": "chem-1983-q5",
+      "question": "Electronic configuration 1s2 2s2 2p6 3s2 3p2 belongs to:",
+      "options": [
+        { "key": "A", "text": "metal" },
+        { "key": "B", "text": "alkaline earth" },
+        { "key": "C", "text": "s-block" },
+        { "key": "D", "text": "p-block" },
+        { "key": "E", "text": "transition" }
+      ],
+      "correct_option": "D",
+      "explanation": "The configuration ends in 3p2, placing this element (Silicon) in the p-block.",
+      "topic": "Atomic Structure"
+    },
+    {
+      "id": "chem-1983-q6",
+      "question": "The shape of methane molecule is:",
+      "options": [
+        { "key": "A", "text": "hexagonal" },
+        { "key": "B", "text": "trigonal" },
+        { "key": "C", "text": "linear" },
+        { "key": "D", "text": "tetrahedral" },
+        { "key": "E", "text": "cubical" }
+      ],
+      "correct_option": "D",
+      "explanation": "Methane (CH4) has 4 bonding pairs and no lone pairs, giving it a perfect tetrahedral geometry.",
+      "topic": "Physical Chemistry"
+    },
+    {
+      "id": "chem-1983-q7",
+      "question": "Reaction of alcohol with ethanoic acid forms:",
+      "options": [
+        { "key": "A", "text": "soap" },
+        { "key": "B", "text": "oil" },
+        { "key": "C", "text": "alkane" },
+        { "key": "D", "text": "ester" },
+        { "key": "E", "text": "sugar" }
+      ],
+      "correct_option": "D",
+      "explanation": "Esterification (acid + alcohol) produces an ester and water.",
+      "topic": "Organic Chemistry"
+    },
+    {
+      "id": "chem-1983-q8",
+      "question": "Relative molecular mass 180 with ratio 1:2:1 (C:H:O) suggests:",
+      "options": [
+        { "key": "A", "text": "C6H12O6" },
+        { "key": "B", "text": "C3H6O3" },
+        { "key": "C", "text": "C7H14O7" },
+        { "key": "D", "text": "C12H22O11" },
+        { "key": "E", "text": "CH3O" }
+      ],
+      "correct_option": "A",
+      "explanation": "Glucose has formula C6H12O6 with molar mass 180 g/mol and C:H:O ratio of 1:2:1.",
+      "topic": "Organic Chemistry"
+    },
+    {
+      "id": "chem-1983-q9",
+      "question": "Fermentation is used in:",
+      "options": [
+        { "key": "A", "text": "plastic" },
+        { "key": "B", "text": "textile" },
+        { "key": "C", "text": "brewing" },
+        { "key": "D", "text": "soap" },
+        { "key": "E", "text": "dye" }
+      ],
+      "correct_option": "C",
+      "explanation": "Fermentation (yeast converting sugars to ethanol + CO2) is the key process in brewing.",
+      "topic": "Industrial Chemistry"
+    },
+    {
+      "id": "chem-1983-q10",
+      "question": "Mixture of NaCl, NH4Cl, BaSO4 is best separated by:",
+      "options": [
+        { "key": "A", "text": "water then filter then sublime" },
+        { "key": "B", "text": "water then sublime then filter" },
+        { "key": "C", "text": "sublime then water then filter" },
+        { "key": "D", "text": "distillation" },
+        { "key": "E", "text": "crystallization" }
+      ],
+      "correct_option": "C",
+      "explanation": "NH4Cl sublimes on heating (removed first), then NaCl dissolves in water leaving BaSO4 as residue after filtration.",
+      "topic": "Analytical Chemistry"
+    },
+    {
+      "id": "chem-1983-q11",
+      "question": "The ideal gas relation is:",
+      "options": [
+        { "key": "A", "text": "P∝VT" },
+        { "key": "B", "text": "P∝T/V" },
+        { "key": "C", "text": "PT∝V" },
+        { "key": "D", "text": "PV∝VT" },
+        { "key": "E", "text": "P∝V/T" }
+      ],
+      "correct_option": "B",
+      "explanation": "From the ideal gas law PV=nRT, at constant n: P∝T/V.",
+      "topic": "Physical Chemistry"
+    },
+    {
+      "id": "chem-1983-q12",
+      "question": "A gas evolved in a reaction turns blue litmus paper to:",
+      "options": [
+        { "key": "A", "text": "bleached" },
+        { "key": "B", "text": "green" },
+        { "key": "C", "text": "red" },
+        { "key": "D", "text": "blue" },
+        { "key": "E", "text": "black" }
+      ],
+      "correct_option": "C",
+      "explanation": "Acidic gases (e.g. HCl, SO2) turn blue litmus red.",
+      "topic": "Analytical Chemistry"
+    },
+    {
+      "id": "chem-1983-q13",
+      "question": "Calcium flame colour is:",
+      "options": [
+        { "key": "A", "text": "green" },
+        { "key": "B", "text": "blue" },
+        { "key": "C", "text": "brick-red" },
+        { "key": "D", "text": "yellow" },
+        { "key": "E", "text": "lilac" }
+      ],
+      "correct_option": "C",
+      "explanation": "Calcium gives a characteristic brick-red flame in a flame test.",
+      "topic": "Inorganic Chemistry"
+    },
+    {
+      "id": "chem-1983-q14",
+      "question": "Endothermic reaction is favored by:",
+      "options": [
+        { "key": "A", "text": "low concentration" },
+        { "key": "B", "text": "high product concentration" },
+        { "key": "C", "text": "catalyst" },
+        { "key": "D", "text": "low temperature" },
+        { "key": "E", "text": "high temperature" }
+      ],
+      "correct_option": "E",
+      "explanation": "By Le Chatelier's principle, increasing temperature shifts equilibrium toward the endothermic direction.",
+      "topic": "Physical Chemistry"
+    },
+    {
+      "id": "chem-1983-q15",
+      "question": "Loss of water of crystallization is:",
+      "options": [
+        { "key": "A", "text": "efflorescence" },
+        { "key": "B", "text": "hygroscopy" },
+        { "key": "C", "text": "deliquescence" },
+        { "key": "D", "text": "effervescence" },
+        { "key": "E", "text": "dehydration" }
+      ],
+      "correct_option": "A",
+      "explanation": "Efflorescence is the spontaneous loss of water of crystallization to the surrounding atmosphere.",
+      "topic": "Inorganic Chemistry"
+    },
+    {
+      "id": "chem-1983-q16",
+      "question": "Electronegative elements tend to:",
+      "options": [
+        { "key": "A", "text": "exist as gas" },
+        { "key": "B", "text": "form positive ions" },
+        { "key": "C", "text": "lose electrons" },
+        { "key": "D", "text": "gain electrons" },
+        { "key": "E", "text": "form metallic bonds" }
+      ],
+      "correct_option": "D",
+      "explanation": "Electronegativity is the tendency to attract and gain electrons in a bond.",
+      "topic": "Inorganic Chemistry"
+    },
+    {
+      "id": "chem-1983-q17",
+      "question": "Stainless steel contains:",
+      "options": [
+        { "key": "A", "text": "Fe + C + Pb" },
+        { "key": "B", "text": "Fe + C + Cr" },
+        { "key": "C", "text": "Fe + C + Cu" },
+        { "key": "D", "text": "Fe + C + Ag" },
+        { "key": "E", "text": "Fe + C only" }
+      ],
+      "correct_option": "B",
+      "explanation": "Chromium (Cr) provides the corrosion resistance that makes steel 'stainless'.",
+      "topic": "Industrial Chemistry"
+    },
+    {
+      "id": "chem-1983-q18",
+      "question": "Petroleum pollution on water surfaces is best removed by:",
+      "options": [
+        { "key": "A", "text": "heating" },
+        { "key": "B", "text": "stirring" },
+        { "key": "C", "text": "solvents" },
+        { "key": "D", "text": "detergents" },
+        { "key": "E", "text": "cooling" }
+      ],
+      "correct_option": "D",
+      "explanation": "Detergents emulsify oil, breaking it into tiny droplets that can be dispersed and removed.",
+      "topic": "Environmental Chemistry"
+    },
+    {
+      "id": "chem-1983-q19",
+      "question": "Increasing pressure on a gaseous equilibrium shifts the reaction to:",
+      "options": [
+        { "key": "A", "text": "side with fewer moles of gas" },
+        { "key": "B", "text": "side with more moles of gas" },
+        { "key": "C", "text": "no effect" },
+        { "key": "D", "text": "always reverse" },
+        { "key": "E", "text": "always forward" }
+      ],
+      "correct_option": "A",
+      "explanation": "By Le Chatelier's principle, increased pressure favors the side with fewer moles of gas to reduce pressure.",
+      "topic": "Physical Chemistry"
+    },
+    {
+      "id": "chem-1983-q20",
+      "question": "The valency of oxygen is:",
+      "options": [
+        { "key": "A", "text": "1" },
+        { "key": "B", "text": "2" },
+        { "key": "C", "text": "3" },
+        { "key": "D", "text": "4" },
+        { "key": "E", "text": "6" }
+      ],
+      "correct_option": "B",
+      "explanation": "Oxygen has 6 valence electrons and needs 2 more to complete its octet, giving it a valency of 2.",
+      "topic": "Atomic Structure"
+    }
+  ]
+}
